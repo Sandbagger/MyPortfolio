@@ -9,7 +9,7 @@ html, body{
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 5rem;
 	color: white;
 	margin: auto;
 }
@@ -70,12 +70,17 @@ a {
 #welcome-section{
 	display: flex;
 	height: 100vh;
-	background-image: url("https://static.pexels.com/photos/21787/pexels-photo.jpg");
+	background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+        ),
+         url("codePic.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+
 	
 }
 
@@ -227,9 +232,9 @@ flex-direction: column;
 
 .tile-text {
 	position: absolute;
-	top: 100px;
+	top: 115px;
     bottom: 0;
-    left: 35px;
+    left: 50px;
     right: 0;
     color: #4ABDAC; /*#FFFAFA*/
     font-size: 130%;
