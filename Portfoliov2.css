@@ -225,6 +225,10 @@ flex-direction: column;
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
+.contact-icon {
+	-webkit-transform: translateY(10px);
+  transform: translateY(10px);
+}
 
 @media (min-width: 37.5em) {
 	
