@@ -113,8 +113,37 @@ flex-direction: column;
 }
 
 figure{
-
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+  width: 75%;
 }
+
+figure img {
+	width: 100%;
+}
+
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+
+
+  opacity: 0;
+  bottom: 0; 
+  top: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  top: 0;
+}
+
+
 
 /* Contact */
 
@@ -233,7 +262,7 @@ figure{
     bottom: 0;
     left: 80px;
     right: 0;
-    color: #4ABDAC; /*#FFFAFA*/
+    color: #4ABDAC; 
     font-size: 125%;
 }
 
@@ -243,7 +272,7 @@ figure{
 	#projects_container {
 		flex-direction: row;
 		font-size: 145%;
-		align-items: : center;
+		align-items: center;
 		
 	}
 	#unhide-text {
@@ -268,7 +297,7 @@ figcaption {
 
   opacity: 0;
   bottom: 0; 
-  left: -30%;
+  top: -30%;
   -webkit-transition: all 0.6s ease;
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
@@ -276,7 +305,7 @@ figcaption {
 
 figure:hover figcaption {
   opacity: 1;
-  left: 0;
+  top: 0;
 }
 
 
