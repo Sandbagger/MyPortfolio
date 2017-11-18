@@ -65,7 +65,8 @@ a {
 }
 
 
-#navbar{
+.navbar-text{
+	display: none;
 
 }
 
@@ -92,7 +93,7 @@ a {
 /*Projects */
 
 #projects{
-	padding-top: 5rem;
+	padding-top: 15rem;
 	padding-bottom: 15rem;
 	background-color: #FFFAFA;
 flex-direction: column;
@@ -104,6 +105,8 @@ flex-direction: column;
 
 
 #projects_container{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -243,56 +246,3 @@ figure:hover figcaption {
 
 /*Media Queries*/
 
-@media (min-width: 37.5em) {
-	
-
-.contact-container{
-	
-	flex-direction: row;
-
-}
-
-.project-tile{
-	
-	width: 50%;
-	
-}
-
-.tile-text {
-	position: absolute;
-	top: 80px;
-    bottom: 0;
-    left: 80px;
-    right: 0;
-    color: #4ABDAC; 
-    font-size: 125%;
-}
-
-}
-
-@media (min-width: 50em) {
-	#projects_container {
-		flex-direction: row;
-		font-size: 145%;
-		align-items: center;
-		
-	}
-	#unhide-text {
- 	display: inline;
-}
-
-figure{
-  display: block; 
-  position: relative; 
-  overflow: hidden; 
-  width: 25%;
-}
-
-
-
-.contact-container{
-	
-	flex-direction: row;
-}
-
-}
