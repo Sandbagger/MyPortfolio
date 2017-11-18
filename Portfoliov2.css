@@ -293,6 +293,7 @@ figcaption {
   background: rgba(0,0,0,0.75); 
   color: white; 
   padding: 10px 20px; 
+  width: 100%;
 
 
   opacity: 0;
@@ -315,3 +316,4 @@ figure:hover figcaption {
 	flex-direction: row;
 }
 
+}
