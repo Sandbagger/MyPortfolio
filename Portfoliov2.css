@@ -53,15 +53,17 @@ a {
 	z-index: 1;
 }
 
-.link-container {
+#link-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: nowrap;
+	flex-direction: row;
 }
 
 .nav-link {
 	margin-right: 1rem;
+	cursor: pointer;
 }
 
 
@@ -76,8 +78,8 @@ a {
 	display: flex;
 	height: 100vh;
 	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 1)
         ),
          url("codePic.jpg");
 	background-size: cover;
@@ -85,19 +87,95 @@ a {
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+	flex-direction: column;
 	
 }
 
 
+
+#subheader{
+	font-size: 1.5em;
+	color: white;
+}
+
+.typewrite{
+	text-decoration: none;
+	color: white;
+}
+
+.arrow-bio{
+	margin-top: 1em;
+	color: white;
+	cursor: pointer;
+}
+
+#cursor{
+	color: black;
+}
+
+/*Bio*/
+
+#bio{
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	background-color: #4ABDAC;
+flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	display: flex;
+	
+}
+
+#bio-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+#bio-intro{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	justify-content: space-around;
+	margin: 2% 2% 2% 2%;
+}
+
+.text{
+	width: 80%;
+	flex-wrap: wrap;
+	font-size: 1.5em;
+	background: #FFFAFA;
+	padding: 2% 2% 2% 2%;
+}
+
+#talk-pic{
+	height: 15%;
+	width: 15%;
+}
+
+#trinity-pic{
+	height: 15%;
+	width: 15%;
+}
+
+.arrow-portfolio{
+	margin-top: 1em;
+	color: white;
+	cursor: pointer;
+}
 
 /*Projects */
 
 #projects{
 	padding-top: 15rem;
 	padding-bottom: 15rem;
-	background-color: #FFFAFA;
+	background-color:#FFFAFA;
 flex-direction: column;
 	justify-content: center;
+
 	margin: 0 auto;
 	display: flex;
 	
@@ -112,8 +190,6 @@ flex-direction: column;
 	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
-	
-
 }
 
 figure{
@@ -132,7 +208,8 @@ figcaption {
   background: rgba(0,0,0,0.75); 
   color: white; 
   padding: 10px 20px; 
-  width: 100%;
+  width: 92%;
+
 
 
   opacity: 0;
@@ -148,7 +225,16 @@ figure:hover figcaption {
   top: 0;
 }
 
+.fig-text{
+	font-size: 10%;
+}
 
+.arrow-portfolio{
+	margin-top: 1em;
+	color: white;
+	cursor: pointer;
+	margin: 0 auto;
+}
 
 /* Contact */
 
