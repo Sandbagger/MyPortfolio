@@ -225,8 +225,13 @@ figure:hover figcaption {
   top: 0;
 }
 
+.fig-header{
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
 .fig-text{
-	font-size: 0.8em;
+	font-size: 2.5em;
 }
 
 .arrow-portfolio{
@@ -377,7 +382,14 @@ figure{
   width: 25%;
 }
 
+.fig-header{
+	font-size: 1.5em;
+	font-weight: bold;
+}
 
+.fig-text{
+	font-size: 0.8em;
+}
 
 .contact-container{
 	
